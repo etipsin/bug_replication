@@ -1,1 +1,715 @@
-<p>Hello</p>
+
+
+<!DOCTYPE html>
+<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>
+
+
+          Test Broadridge
+
+
+
+
+    </title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="shortcut icon" href="/static/home/images/favicon.ico" />
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+   <link rel="stylesheet" type="text/css" href="/static/advisor/css/main.css">
+
+
+    <script src="https://use.typekit.net/mkf3bxb.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+
+
+
+        <script src="//load.sumome.com/" data-sumo-site-id="18abb503b66004e3bca0a77b1bd95536e56d09a57f49dcded1cc53981a52f9b3" async="async"></script>
+
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function() {
+    $('.ec-aside').each(function() {
+      var parent = $(this).parent();
+      if (parent.hasClass('ec-container') && !parent.is($('.ec-maincontentbody > .ec-container:last'))) {
+        parent.css('width', '50%');
+        parent.css('float', 'right');
+        parent.css('border-left', '1px solid black');
+        parent.css('padding-left', '5px');
+        parent.css('margin-left', '5px');
+
+        $(this).find('img').each(function() {
+          $(this).parent().css('text-align', 'left');
+        });
+      }
+    });
+  });
+</script>
+
+
+
+<link rel="stylesheet" type="text/css" href="/static/advisor/css/broadridge.css">
+
+  </head>
+  <body class="article_page">
+
+<!-- Wagtail user bar embed code -->
+<div class="wagtail-userbar-reset">
+    <div class="wagtail-userbar wagtail-userbar--bottom-right" data-wagtail-userbar>
+        <link rel="stylesheet" href="/static/wagtailadmin/css/userbar.css?v=d016f56e" type="text/css" />
+        <div class="wagtail-userbar-nav">
+            <div class="wagtail-userbar-trigger" data-wagtail-userbar-trigger>
+
+                  <div style="display: none">
+                    <svg>
+                        <defs>
+                          <symbol id="icon-wagtail-icon" viewBox="0 0 16 16">
+    <path d="M12.324 2.539c0 0.152-0.114 0.303-0.303 0.303-0.152 0-0.303-0.152-0.303-0.303 0-0.19 0.152-0.303 0.303-0.303 0.19 0 0.303 0.114 0.303 0.303zM12.437 5.421c0 0-0.417-1.896-2.92-1.403-0.228-0.872-0.19-1.517 0.341-2.086 0.759-0.796 1.972-0.379 1.972-0.379v-0.645c-0.417-0.19-0.834-0.228-1.252-0.228-1.631 0-2.541 1.214-2.92 2.048l-4.513 8.306 1.289-0.228-2.351 4.513 1.631-0.303 1.252-3.527c3.527 0 8.078-1.289 7.471-6.068zM13.954 3.828l-0.986-0.986-0.796 0.986zM5.535 10.465c0 0 0.152-0.038 0.341-0.076 0.19-0.076 0.493-0.114 0.834-0.228 0.19-0.038 0.379-0.114 0.569-0.152 0.19-0.076 0.417-0.152 0.607-0.228 0.228-0.114 0.417-0.19 0.607-0.303 0.228-0.114 0.417-0.265 0.607-0.379 0.038-0.038 0.114-0.076 0.152-0.114l0.114-0.114c0.114-0.114 0.19-0.19 0.265-0.265s0.152-0.19 0.228-0.265c0.038-0.038 0.076-0.076 0.114-0.152l0.038-0.076 0.038-0.038c0.038-0.076 0.076-0.114 0.076-0.152 0.038-0.038 0.076-0.114 0.076-0.152 0.038-0.038 0.038-0.038 0.038-0.076 0.038 0 0.038-0.038 0.038-0.076 0.038-0.038 0.038-0.076 0.076-0.114 0.038-0.114 0.076-0.19 0.114-0.303 0-0.076 0.038-0.152 0.076-0.265 0-0.076 0.038-0.152 0.038-0.228s0.038-0.152 0.038-0.228c0-0.076 0.038-0.152 0.038-0.228 0-0.038 0-0.114 0-0.152 0-0.19 0.038-0.341 0.038-0.341l0.19 0.038c0 0-0.038 0.114-0.038 0.303 0 0.076-0.038 0.114-0.038 0.19s0 0.152-0.038 0.19c0 0.076 0 0.152-0.038 0.265 0 0.076-0.038 0.152-0.038 0.228-0.038 0.114-0.076 0.19-0.114 0.303-0.038 0.076-0.076 0.19-0.114 0.265 0 0.038-0.038 0.114-0.076 0.152 0 0.038 0 0.038-0.038 0.076 0 0.038 0 0.038-0.038 0.076 0 0.038-0.038 0.076-0.076 0.152-0.038 0.038-0.038 0.076-0.076 0.114s-0.038 0.076-0.038 0.076l-0.076 0.076c-0.038 0.038-0.076 0.114-0.114 0.152-0.076 0.076-0.152 0.19-0.228 0.265s-0.152 0.152-0.265 0.265l-0.114 0.114c-0.076 0.038-0.114 0.038-0.152 0.076-0.228 0.152-0.417 0.303-0.645 0.417-0.19 0.076-0.417 0.19-0.607 0.265-0.228 0.076-0.417 0.152-0.645 0.228-0.19 0.038-0.379 0.114-0.569 0.152-0.341 0.076-0.645 0.152-0.834 0.19s-0.341 0.076-0.341 0.076z"></path>
+</symbol>
+
+                          <symbol id="icon-folder-open-inverse" viewBox="0 0 16 16">
+    <path d="M14.729 8.912c0 0.137-0.082 0.302-0.22 0.494l-2.472 2.884c-0.192 0.247-0.494 0.467-0.879 0.632-0.385 0.192-0.714 0.275-1.044 0.275h-7.965c-0.165 0-0.33-0.027-0.439-0.11-0.137-0.055-0.22-0.165-0.22-0.302 0-0.165 0.082-0.33 0.247-0.494l2.444-2.884c0.22-0.275 0.522-0.467 0.879-0.659 0.385-0.165 0.742-0.247 1.071-0.247h7.965c0.165 0 0.302 0.027 0.439 0.082 0.137 0.082 0.192 0.192 0.192 0.33zM12.23 6.385v1.181h-6.097c-0.467 0-0.934 0.11-1.456 0.357-0.494 0.22-0.906 0.522-1.208 0.851l-2.444 2.911-0.055 0.055c0-0.027 0-0.055 0-0.11 0-0.027 0-0.055 0-0.082v-7.031c0-0.439 0.165-0.824 0.494-1.154 0.302-0.33 0.687-0.494 1.154-0.494h2.335c0.439 0 0.824 0.165 1.154 0.494s0.494 0.714 0.494 1.154v0.22h3.983c0.439 0 0.824 0.165 1.154 0.494s0.494 0.714 0.494 1.154z"></path>
+</symbol>
+
+                          <symbol id="icon-edit" viewBox="0 0 16 16">
+    <path d="M12.12 1.008l-0.876 0.94 2.501 2.33 0.876-0.94-2.501-2.33zM10.667 2.568l-8.592 9.234 2.501 2.33 8.592-9.234-2.501-2.33zM1.626 12.55l-0.192 2.458 2.437-0.363-2.244-2.095z"></path>
+</symbol>
+
+                          <symbol id="icon-plus" viewBox="0 0 16 16">
+    <path d="M13.889 6.652v1.611c0 0.234-0.088 0.41-0.234 0.586-0.146 0.146-0.352 0.234-0.557 0.234h-3.486v3.457c0 0.234-0.088 0.439-0.234 0.586s-0.352 0.234-0.586 0.234h-1.582c-0.234 0-0.439-0.088-0.586-0.234s-0.234-0.352-0.234-0.586v-3.457h-3.486c-0.205 0-0.41-0.088-0.557-0.234-0.146-0.176-0.234-0.352-0.234-0.586v-1.611c0-0.205 0.088-0.41 0.234-0.557s0.352-0.234 0.557-0.234h3.486v-3.486c0-0.234 0.088-0.41 0.234-0.557 0.146-0.176 0.352-0.234 0.586-0.234h1.582c0.234 0 0.439 0.059 0.586 0.234 0.146 0.146 0.234 0.322 0.234 0.557v3.486h3.486c0.205 0 0.41 0.088 0.557 0.234s0.234 0.352 0.234 0.557z"></path>
+</symbol>
+
+                          <symbol id="icon-tick" viewBox="0 0 16 16">
+    <path d="M14.906 4.563c0 0.219-0.063 0.438-0.25 0.594l-7.656 7.688c-0.188 0.156-0.375 0.25-0.625 0.25-0.219 0-0.438-0.094-0.594-0.25l-4.438-4.438c-0.188-0.188-0.25-0.375-0.25-0.625 0-0.219 0.063-0.438 0.25-0.594l1.188-1.219c0.188-0.156 0.375-0.25 0.625-0.25 0.219 0 0.438 0.094 0.594 0.25l2.625 2.625 5.875-5.875c0.156-0.156 0.375-0.25 0.594-0.25 0.25 0 0.438 0.094 0.625 0.25l1.188 1.219c0.188 0.188 0.25 0.375 0.25 0.625z"></path>
+</symbol>
+
+                          <symbol id="icon-cross" viewBox="0 0 16 16">
+    <path d="M13.313 11.313c0 0.219-0.094 0.438-0.25 0.594l-1.219 1.219c-0.156 0.156-0.375 0.25-0.625 0.25-0.219 0-0.438-0.094-0.594-0.25l-2.625-2.625-2.625 2.625c-0.156 0.156-0.375 0.25-0.594 0.25-0.25 0-0.469-0.094-0.625-0.25l-1.219-1.219c-0.156-0.156-0.25-0.375-0.25-0.594 0-0.25 0.094-0.438 0.25-0.625l2.625-2.625-2.625-2.625c-0.156-0.156-0.25-0.375-0.25-0.594 0-0.25 0.094-0.438 0.25-0.625l1.219-1.188c0.156-0.188 0.375-0.25 0.625-0.25 0.219 0 0.438 0.063 0.594 0.25l2.625 2.625 2.625-2.625c0.156-0.188 0.375-0.25 0.594-0.25 0.25 0 0.469 0.063 0.625 0.25l1.219 1.188c0.156 0.188 0.25 0.375 0.25 0.625 0 0.219-0.094 0.438-0.25 0.594l-2.625 2.625 2.625 2.625c0.156 0.188 0.25 0.375 0.25 0.625z"></path>
+</symbol>
+
+                        </defs>
+                    </svg>
+                  </div>
+                  <svg class="wagtail-userbar-icon" aria-hidden="true" focusable="false">
+                    <use href="#icon-wagtail-icon"></use>
+                  </svg>
+
+                <span class="wagtail-userbar-help-text">Go to Wagtail admin interface</span>
+            </div>
+            <div class='wagtail-userbar-items'>
+
+                    <div class="wagtail-userbar__item ">
+    <div class="wagtail-action">
+        <a href="/admin/" target="_parent">
+          <svg class="icon icon-wagtail-icon wagtail-action-icon" aria-hidden="true" focusable="false"><use href="#icon-wagtail-icon"></use></svg>
+          Go to Wagtail admin
+        </a>
+    </div>
+</div>
+
+
+                    <div class="wagtail-userbar__item ">
+    <div class="wagtail-action">
+        <a href="/admin/pages/3/" target="_parent">
+          <svg class="icon icon-folder-open-inverse wagtail-action-icon" aria-hidden="true" focusable="false"><use href="#icon-folder-open-inverse"></use></svg>
+          Show in Explorer
+        </a>
+    </div>
+</div>
+
+
+                    <div class="wagtail-userbar__item ">
+    <div class="wagtail-action">
+        <a href="/admin/pages/7/edit/" target="_parent">
+          <svg class="icon icon-edit wagtail-action-icon" aria-hidden="true" focusable="false"><use href="#icon-edit"></use></svg>
+          Edit this page
+        </a>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+        <script src="/static/wagtailadmin/js/userbar.js?v=d016f56e"></script>
+    </div>
+</div>
+<!-- end Wagtail user bar embed code -->
+
+    <main>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="accent-border" style="background: ;">&nbsp;</div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="corp_logo margin-top-10 margin-bottom-10">
+
+            </div>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="corp_slogan">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 margin-top-15">
+        <div class="media publisher-logo-title border-bottom">
+          <h1 class="media-heading tk-ff-meta-serif-web-pro">Test Broadridge</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <!-- Mobile only profiles -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 advisor-profile mobile">
+
+
+        <div class="enterprise-cta" style="display: none;">
+
+
+
+  <a href="placeholder" target="_blank">Feedback</a>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- /Profiles -->
+
+  <div class="container article-body margin-top-15 margin-bottom-15">
+    <div class="row">
+      <div id="article-text" class="col-sm-8 border-right">
+
+
+
+        <!-- Publisher logo -->
+
+
+
+        <!-- Article -->
+
+  <div class="body-content">
+
+
+
+<div class="stream-field">
+
+
+            <h1 class="head-title tk-heading">Test Broadridge</h1>
+
+
+</div>
+
+
+  </div>
+
+
+
+
+  <div class="partner-logo">
+
+    <a href="https://www.broadridge.com/" target="_blank">
+      <img src="https://1.cms.s81c.com/sites/default/files/2019-10-03/BR_logo_rgb_blue.png" alt="Powered by Broadridge" height="25px" />
+    </a>
+  </div>
+
+        <!-- /Article -->
+      </div>
+
+      <div class="col-sm-4 desktop tablet tablet-block">
+        <div id="profiles-sidebar">
+          <!-- Desktop and tablet profiles -->
+
+
+
+            <div class="enterprise-cta" style="display: none;">
+
+
+
+  <a href="placeholder" target="_blank">Feedback</a>
+
+
+            </div>
+
+          <!-- /Profiles -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <!-- Opt-In and tracking Modal -->
+
+
+
+<script>
+  $(document).ready(function() {
+    var isPreview = 'False' == 'True';
+    var trackPageview = 'False' == 'True';
+    if (isPreview || !trackPageview) {
+      return; // Don't set cookies or send pageviewevents
+    }
+    var eventId;
+    var showOptin;
+    var readerId;
+
+    sendPageView(function(data) {
+      eventId = data.view_id;
+      var optinOptions = data.optin_options;
+
+      if (data.expired) {
+        $('.body-content').html('<div class="rich-text"><p>Due to licensing restrictions, this article link has expired.</p></div>');
+        return;
+      }
+
+      if (data.enterprise_cta) {
+        $('.enterprise-cta > a').attr('href', data.enterprise_cta);
+        $('.enterprise-cta').show();
+      }
+
+      // Don't show modal or store any cookies for EU readers if
+      // the user has blacklisted the EU
+      if (optinOptions.blacklist_eu && data.eu_ip_address) {
+        return;
+      }
+
+      showOptin = optinOptions.show;
+      var gdprCompliant = optinOptions.gdpr_compliant;
+      var visited = Cookies.get('visited' + '');
+      var cookiesAccepted = Cookies.get('accept_cookies' + '');
+
+      if (data.reader_id) {
+        readerId = data.reader_id;
+
+        if (!gdprCompliant || (gdprCompliant && cookiesAccepted)) {
+          Cookies.set('reader' + '', readerId, {expires: 365});
+        }
+      }
+
+      if (gdprCompliant && !cookiesAccepted) {
+        $('#cookieCopy').html(optinOptions.gdpr_copy)
+        $('#cookieAcceptDialog').show();
+        $('#optinForm').hide();
+      }
+
+      if (!showOptin) {
+        if (gdprCompliant && !cookiesAccepted) {
+          openOptinModal();
+        } else {
+          // If optin is disabled and no gdpr requirements set a cookie immediately
+          Cookies.set('visited' + '', true, { expires: 365});
+        }
+      }
+
+      if (showOptin && !visited) {
+        openOptinModal();
+      }
+
+      function openOptinModal() {
+        if (!optinOptions.required) {
+          $('#optinDismiss').show();
+        }
+        var modalOptions = optinOptions.required ? { backdrop: 'static', keyboard: false } : {};
+        var optinDelay = optinOptions.delay;
+
+        var modalLaunched = false;
+        $(window)
+            .scroll(function() {
+              if (optinOptions.required && !modalLaunched) {
+                if ($(window).scrollTop() > 250) {
+                  $('#optinModal').modal(modalOptions);
+                  modalLaunched = true;
+                }
+              }
+            })
+            .trigger('scroll');
+
+        setTimeout(function() {
+          if (!modalLaunched) {
+            $('#optinModal').modal(modalOptions);
+            modalLaunched = true;
+          }
+        }, optinDelay * 1000);
+          $('.modal').on('shown.bs.modal', function() {
+            // workaround for nested forms
+            // https://github.com/1000hz/bootstrap-validator/issues/336
+            // https://github.com/1000hz/bootstrap-validator/issues/147
+
+            $('#optinForm').validator('destroy').validator();
+
+            // When modal opens, append extra capture fields to form
+            extraFields = optinOptions.extra_fields
+            for (var i in extraFields) {
+              var field = extraFields[i];
+              var title = titleCase(field.name);
+              var fieldID = 'optin' + title.split(' ').join('');
+              var requiredAttribute = field.required ? ' required' : '';
+
+              $('#optinFormInput').append(" \
+                <div class=\"form-group\"> \
+                  <label for=\"" + fieldID + "\">" + title + "</label> \
+                  <input type=\"text\" class=\"form-control\" id=\"" + fieldID + "\" placeholder=\"" + title + "\" data-focus=\"false\" data-extra-field-title=\"" + title + "\"" + requiredAttribute + "> \
+                  <div class=\"help-block with-errors\"></div> \
+                </div> \
+              ")
+            }
+            $('#optinForm').validator('update');
+        });
+      }
+
+      function titleCase(str) {
+        var strAr = str.toLowerCase().split(' ');
+        for (var i = 0; i < strAr.length; i++) {
+          strAr[i] = strAr[i].charAt(0).toUpperCase() + strAr[i].slice(1);
+        }
+        return strAr.join(' ');
+      }
+    });
+
+    $('#optinForm').submit(function (e) {
+      e.preventDefault();
+      if (!form_validate('optinForm')) {
+        return null;
+      } else {
+        var firstName = $('#optinFirstName').val();
+        var lastName = $('#optinLastName').val();
+        var email = $('#optinEmail').val();
+
+        var extraFieldValues = $('#optinFormInput input[data-extra-field-title]')
+          .filter(function() {
+            return this.value;
+          })
+          .map(function() {
+            var _this = $(this);
+            return { name: _this.attr('data-extra-field-title'), value: _this.val() };
+          })
+          .get();
+
+        sendLead(
+            {first_name: firstName, last_name: lastName, email: email, extra_fields: extraFieldValues}, eventId)
+          .then(function(resp) {
+          	// Only now set a cookie to disable optin in future
+            Cookies.set('visited' + '', true, { expires: 365});
+            Cookies.set('reader' + '', resp.reader_id, { expires: 365});
+          });
+        $('#optinModal').modal('hide');
+      }
+    });
+
+    $('#optinDismiss, #cookieDismiss').click(function() {
+      $('#optinModal').modal('hide');
+    });
+
+    $('#cookieAccept').click(function() {
+      Cookies.set('accept_cookies' + '', true, { expires: 365});
+
+      if (readerId) {
+        Cookies.set('reader' + '', readerId, {expires: 365});
+      }
+
+      if (showOptin) {
+        $('#cookieAcceptDialog').hide();
+        $('#optinForm').show();
+      } else {
+        Cookies.set('visited' + '', true, { expires: 365});
+        $('#optinModal').modal('hide');
+      }
+    });
+  });
+
+  function sendPageView(callback) {
+  	var pageviewUrl = '';
+    var token = '';
+    var ip_address = '';
+    // Track visitors to this Node
+    var readerId = Cookies.get('reader' + '');
+
+    // Cleanup bad cookies
+    if (readerId === 'null') {
+    	readerId = null;
+    	Cookies.remove('reader' + '');
+    }
+    $.post({
+      url: pageviewUrl,
+      data: JSON.stringify({
+        token: token,
+        ip_address: ip_address,
+        proxy_id: '7',
+        reader_id: readerId
+      }),
+      crossDomain: true,
+      contentType: 'application/json',
+      processData: false
+    })
+      .done(callback);
+  }
+
+  function sendLead(lead, view_id) {
+    var leadUrl = '';
+    return $.post({
+      url: leadUrl,
+      data: JSON.stringify({lead: lead, event: view_id}),
+      crossDomain: true,
+      contentType: 'application/json'
+    })
+  }
+
+  function form_validate(attr_id){
+    // https://github.com/1000hz/bootstrap-validator/issues/148
+    var result = true;
+    $('#'+attr_id).validator('validate');
+    $('#'+attr_id+' .form-group').each(function(){
+        if($(this).hasClass('has-error')){
+            result = false;
+            return false;
+        }
+    });
+    return result;
+}
+</script>
+
+
+
+
+<div class="modal fade" id="optinModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+        <div class="modal-header">
+          <div class="row">
+            <div class="col-12">
+              <div class="corp_logo">
+
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="corp_slogan">
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      <!-- Cookie accept dialog -->
+
+
+<div style="display: none;" id="cookieAcceptDialog">
+  <div class="modal-body">
+    <div id="cookieCopy"></div>
+  </div>
+
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" id="cookieDismiss">No Thanks</button>
+    <button type="button" class="btn btn-primary" id="cookieAccept">Accept</button>
+  </div>
+</div>
+
+
+      <!-- Validated OptIn Form -->
+      <form data-toggle="validator" role="form" id="optinForm">
+        <div class="modal-body no-gutter">
+
+          <div class="row">
+            <div class="col-sm-6">
+
+            </div>
+
+              <div class="col-sm-6 optin-profile">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="advisor-info emails">
+   <br>
+
+</div>
+
+
+
+
+
+
+              </div>
+
+          </div>
+
+          <div class="row">
+            <div id="optinFormInput" class="col-12">
+              <div class="form-group">
+                <label for="optinFirstName">First Name</label>
+                <input type="text" class="form-control" id="optinFirstName" placeholder="First Name" data-focus="false" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="optinLastName">Last Name</label>
+                <input type="text" class="form-control" id="optinLastName" placeholder="Last Name" data-focus="false" required>
+                <div class="help-block with-errors"></div>
+              </div>
+              <div class="form-group">
+                <label for="optinEmail">Email</label>
+                <input type="email" class="form-control" id="optinEmail" placeholder="Email" data-focus="false" required>
+                <div class="help-block with-errors"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-12">
+              <p class="casl-consent">
+                By submitting my contact information, I give my express consent to receive ongoing communications.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+
+            <div class="col-12 text-right">
+              <div class="d-inline-block">
+                <button style="display: none;" type="button" class="btn btn-light" id="optinDismiss">No Thanks</button>
+              </div>
+              <div class="form-group d-inline-block">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </form>
+      <!-- /Form -->
+
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- Tracking Image -->
+
+
+  <!-- Rating (Like/Dislike) -->
+
+    <script>
+  $(document).ready(function(){
+    var processing = false;
+
+    $('[data-toggle="tooltip"]').tooltip();
+
+    $('#like-button').click(function() {
+      if (!processing) sendArticleRating(true);
+    });
+
+    $('#dislike-button').click(function() {
+      if (!processing) sendArticleRating(false);
+    });
+
+    function sendArticleRating(liked) {
+      var articleRatingUrl = '';
+      processing = true;
+
+      $.post({
+        url: articleRatingUrl,
+        data: JSON.stringify({
+          token: '',
+          proxy_id: '7',
+          reader_id: Cookies.get('reader' + ''),
+          liked: liked,
+        }),
+        crossDomain: true,
+        contentType: 'application/json',
+        processData: false
+      })
+        .done(function() {
+          $('.article-rating').hide();
+        })
+        .always(function() {
+          processing = false;
+        });
+    }
+  });
+</script>
+
+<div class="article-rating" >
+  <i id="like-button" class="fa fa-thumbs-o-up" data-toggle="tooltip" data-placement="top" title="Like"></i>
+  <i id="dislike-button" class="fa fa-thumbs-o-down" data-toggle="tooltip" data-placement="top" title="Dislike"></i>
+</div>
+
+
+
+
+
+    </main>
+  </body>
+</html>
